@@ -1,0 +1,112 @@
+:root {
+    --primary-color: #FF8000;
+    --secondary-color: #003366;
+    --font-size-medium: 16px;
+  }
+
+ .container {
+  background-color: var(--primary-color);
+  width: 500px;
+  height: auto;
+  padding: 20px;
+  margin: 10px;
+  border: 2px solid var(--secondary-color);
+}
+
+.heading {
+    color: var(--secondary-color);
+    font-size: var(--font-size-medium);
+    text-align: center;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #F2F2F2;
+  }
+  
+  td {
+    background-color: #FFFFFF;
+  }
+  
+  td {
+    border: 1px solid #999999;
+  }
+  
+  tr:hover {
+    background-color: #F9F9F9;
+  }
+
+  ul li:first-child {
+    color: var(--secondary-color);
+    font-weight: bold;
+  }
+
+  img {
+    width: 200px;
+    height: 150px;
+    border: 1px solid var(--secondary-color);
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: var(--secondary-color);
+    color: #FFFFFF;
+  }
+  
+  td {
+    background-color: #FFFFFF;
+    border: 1px solid var(--secondary-color);
+  }
+  
+  tr:hover {
+    background-color: #6698d4;
+  }
+  
+  a {
+    color: var(--secondary-color);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #FFFFFF;
+    background-color: var(--secondary-color);
+  }
+  
+  a:active {
+    color: #FFFFFF;
+    background-color: #FF8000;
+  }
+  
+  .container::before {
+    content: "Decorative Content";
+    display: block;
+    font-weight: bold;
+    color: var(--secondary-color);
+  }
+  
+  .container::after {
+    content: "";
+    display: block;
+    height: 10px;
+    background-color: var(--secondary-color);
+  }
